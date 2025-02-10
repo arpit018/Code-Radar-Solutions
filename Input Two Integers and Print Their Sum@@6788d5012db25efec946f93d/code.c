@@ -1,7 +1,11 @@
 #include <stdio.h>
 
+
 int main(){
-    char number;
-    scanf("%c" , &number);
-    printf("ASCII Value: %d" , number);
+    int a;
+    int b;
+    scanf("%d",&a);
+    scanf("%d", &b);
+    int c = a + b;
+    printf("Sum: %d",c);
 }
